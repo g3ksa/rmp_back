@@ -1,9 +1,6 @@
-from io import BytesIO
 from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.responses import JSONResponse, FileResponse
-import shutil
 import os
-from PIL import Image
 import requests
 from dotenv import load_dotenv
 import json
